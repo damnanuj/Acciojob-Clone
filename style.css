@@ -1,0 +1,33 @@
+/* 
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    font-size: 30px;
+    font-family: poppins;
+}
+.holder{
+    width: 100vw;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+}
+a{
+    padding: 10px 30px;
+    background-color: #468AE9;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    letter-spacing: 2px;
+    font-family: poppins;
+} */
+
+
+
