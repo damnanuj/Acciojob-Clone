@@ -31,3 +31,144 @@ a{
 
 
 
+
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+}
+/* .navIcon:hover{
+    background-color: #ebf3fe;
+    color: #2f80ed;
+    color: #505862;
+} */
+
+nav{
+    background-color: #fff;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    height: 100%;
+    width: 80px;
+    /* width: 275px; */
+    overflow-y: scroll;
+    transition: width 0.3s linear;
+    box-shadow: 0 20px 35px rgb(205, 205, 205);
+    display: flex;
+    flex-direction: column;
+
+}
+nav ul li:first-child{
+    /* background-color: red; */
+    margin-bottom: 20px;
+}
+#logo:hover{
+    background-color: white;
+}
+.logo{
+    background-color: white;
+}
+.logo a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#logoText{
+    background-color: white;
+}
+#logoText a{
+    font-size: 30px;
+    color: #000;
+}
+
+nav ul{
+    position: absolute;
+    top: 54px;
+    display: flex;
+    flex-direction: column;
+    gap: 8.5px;
+}
+nav ul li{
+    margin-left: 8px;
+    width: 250px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    /* background-color: blue; */
+   transition: width 0.4s linear;
+    border-radius: 4px;
+
+}
+.navIcon{
+    /* background-color: yellow; */
+    border-radius: 4px;
+    height: 100%;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: width 0.3s linear;
+    
+}
+.navIcon a{
+    font-size: 20px;
+    color: #505862;
+}
+.navText{
+    margin-left: 7px;
+    /* background-color: aqua; */
+    height: 100%;
+    width: 180px;
+    display: flex;
+    align-items: center;
+   
+}
+.navText a{
+    font-size: 17px;
+    color: #505862;
+    font-weight: 450;
+}
+
+.active{
+    background-color: #ebf3fe;
+}
+
+.active a, .activeText a{
+    color: #2f80ed;
+}
+nav ul li:hover{
+    background-color: #ebf3fe;
+}
+
+
+nav>ul>li:hover .navIcon a {
+    color: #2f80ed;
+}
+nav>ul>li:hover .navText a{
+    color: #2f80ed;
+}
+nav:hover{
+    width: 280px;
+}
+
+nav:hover #active{
+    background-color: #ebf3fe;
+}
+/* nav:hover .activeText{
+    color: #2f80ed;
+} */
+
+
+
+
+
+
+
+
+
+
