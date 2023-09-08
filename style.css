@@ -176,8 +176,9 @@ nav:hover #active{
     
     display: flex;
     flex-direction: column;
-    gap: 1rem;
+    gap: 8.5px;
     margin-left: 8px;
+
     
 }
 
@@ -191,7 +192,6 @@ nav:hover #active{
 }
 .bottom>div:hover{
     background-color: #ebf3fe;
-    color: red;
 
 }
 .bottom div:hover .navIcon a {
@@ -200,5 +200,34 @@ nav:hover #active{
 .bottom div:hover .navText a{
     color: #2f80ed;
 }
-
+nav:hover #logout {
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    /* background-color: rebeccapurple; */
+    border-top: 1px solid #c3c3c3;
+}
+.logout{
+    background-color: #ffe6d5ff;
+    border-radius: 50%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navText .fa-solid{
+    color: #505862;
+}
+#logout:hover .navText .fa-solid{
+    color: #2f80ed;
+}
+.logout a{
+    color: red;
+}
+#logout>.navText{
+    display: flex;
+    justify-content: space-around;
+    gap: 2.2rem;
+}
 
