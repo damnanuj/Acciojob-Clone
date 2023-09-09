@@ -240,11 +240,3 @@ nav:hover #logout {
 main{
     display: flex;
 }
-.middleSection{
-    width: 500px;
-    height: 400px;
-    background-color: red;
-    position: absolute;
-    right: 0;
-    
-}
