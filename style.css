@@ -293,14 +293,22 @@ main {
     padding-top: 30px;
 }
 
-.right {
+.columnRight {
     width: 33%;
     height: 100vh;
-    background-color: goldenrod;
-    overflow-y: scroll;
+   
+    /* overflow-y: scroll; */
+
+
+    background: #f4f6f9;
+       
+        overflow: scroll;
+        padding: 0 25px 25px;
+       
+
 }
 
-.right::-webkit-scrollbar,
+.columnRight::-webkit-scrollbar,
 .left::-webkit-scrollbar {
     width: 0;
 
@@ -361,3 +369,43 @@ main {
     font-size: 24px;
     font-weight: 400;
 }
+
+
+
+/* Right Part */
+
+    .upcoming-event {
+       
+        align-items: start;
+        background: #fff;
+        background-image: url(https://course.acciojob.com/static/media/upcomingbg.6bc3b7d0760d636464d9.svg);
+        background-position: 100% -20px;
+        background-repeat: no-repeat;
+        background-size: 200px 200px;
+        border-radius: 12px;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        margin: 25px 0;
+        padding-left: 25px;
+    }
+    .upcoming-event .upcoming-heading {
+        font-size: 18px;
+        font-weight: 900;
+        line-height: 21px;
+        margin-top: 20px;
+    }
+   .upcoming-event .event {
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+        padding: 28px;
+    }
+    .upcoming-event .event .class-to-be-updated {
+        color: #444;
+        font-size: 16px;
+        font-weight: 600;
+        letter-spacing: 1px;
+    }
+    
