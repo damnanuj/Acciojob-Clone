@@ -143,6 +143,9 @@ nav ul li {
     align-items: center;
 
 }
+#doubtSupport{
+    background-color: #1e64c1;
+}
 
 .navText a {
     font-size: 17px;
@@ -153,6 +156,13 @@ nav ul li {
 .active {
     background-color: #ebf3fe;
 }
+#doubtSupport{
+    background-color: #2f80ed;
+}
+#doubtSupport a{
+    color: white;
+}
+
 
 .active a,
 .activeText a {
@@ -161,6 +171,7 @@ nav ul li {
 
 nav ul li:hover {
     background-color: #ebf3fe;
+    cursor: pointer;
 }
 
 
@@ -179,6 +190,19 @@ nav:hover {
 nav:hover #active {
     background-color: #ebf3fe;
 }
+nav:hover #doubtSupport1 {
+    background-color: #2f80ed;
+}
+nav:hover .doubtText a {
+    color: white;
+}
+nav>ul>li:hover .doubtText a {
+    color: white;
+}
+
+
+
+
 
 /* nav:hover .activeText{
     color: #2f80ed;
@@ -209,16 +233,20 @@ nav:hover #active {
 
 }
 
-.bottom>div:hover {
+.bottom>#bottomhov:hover {
     background-color: #ebf3fe;
+    cursor: pointer;
 
 }
+#id:hover{
+    background-color: red;
+}
 
-.bottom div:hover .navIcon a {
+.bottom #bottomhov:hover .navIcon a {
     color: #2f80ed;
 }
 
-.bottom div:hover .navText a {
+.bottom #bottomhov:hover .navText a {
     color: #2f80ed;
 }
 
@@ -244,12 +272,13 @@ nav:hover #logout {
     color: #505862;
 }
 
-#logout:hover .navText .fa-solid {
-    color: #2f80ed;
-}
+
 
 .logout a {
     color: red;
+}
+.logout:hover{
+    cursor: pointer;;
 }
 
 #logout>.navText {
@@ -407,5 +436,42 @@ main {
         font-size: 16px;
         font-weight: 600;
         letter-spacing: 1px;
+    }
+
+
+    /* ENter Community */
+    .consistency {
+        background: #fff;
+        background-image: url(https://course.acciojob.com/static/media/communitybg.8a83d1133edb9f51215f.svg);
+        background-position: 100% -20px;
+        background-repeat: no-repeat;
+        background-size: 200px 200px;
+        border-radius: 12px;
+        min-height: 140px;
+        padding: 15px 20px;
+        width: 100%;
+    }
+    .consistency h5{
+        margin-bottom: 3%;
+        font-size: 1.25rem;
+        font-weight: 500;
+        line-height: 1.2;
+    }
+
+    .upcoming-event button {
+        align-items: center;
+        background: linear-gradient(140.34deg,#1e64c1 13.92%,#2f80ed 85.14%);
+        border-radius: 6px;
+        color: #fff;
+        cursor: pointer;
+        display: flex;
+        flex-direction: row;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 500;
+        justify-content: start;
+        line-height: 20px;
+        padding: 5px 20px;
+        border: none;
     }
     
