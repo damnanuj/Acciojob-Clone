@@ -473,5 +473,142 @@ main {
         line-height: 20px;
         padding: 5px 20px;
         border: none;
+
     }
+
+
+
+
+
+    .latestModule {
+        margin-bottom: 50px;
+        margin-top: 36px!important;
+    }
+
+
+.latest-module .module-marking {
+    background: #ffefda;
+    border: 1.2px solid #f0f0f0;
+    border-radius: 8px 8px 0 0;
+    font-size: 14px;
+    padding: 9px 25px;
+    text-transform: uppercase;
+    width: 100%;
+}
+
+.latest-module .latest-module-content-container {
+    background: #fafafa;
+    border: 1px solid #f0f0f0;
+    border-radius: 0 8px 8px 8px;
+    box-shadow: 0 5px 10px -5px rgba(0,0,0,.05), 0 10px 10px -5px rgba(0,0,0,.04);
+}
+
+.latest-module .latest-module-content-container 
+.latest-module-content {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+    justify-content: space-between;
+    padding: 23px;
+    width: 100%;
+}
     
+.module-info {
+    margin-left: 0;
+    padding: 8px 5px;
+    width: 70%;
+}
+
+.latest-module .latest-module-content-container 
+.latest-module-content .module-data .module-info p {
+    font-size: 14px;
+    text-align: start;
+}
+
+.latest-module .latest-module-content-container 
+.latest-module-content .module-data p {
+    color: #ff940a;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%;
+    text-align: center;
+}
+.latest-module .latest-module-content-container 
+.latest-module-content .module-data .date h5 {
+    color: #2b2f34;
+    font-size: 18px;
+}
+
+
+.latest-module .latest-module-content-container 
+.latest-module-content .module-data {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    padding: 0!important;
+}
+.module-data {
+    padding: 0 30px 0 50px;
+    width: 65%;
+}
+.latest-module .latest-module-content-container 
+.latest-module-content .module-data .date p {
+    margin-bottom: 5px;
+    text-transform: uppercase;
+}
+
+.latest-module .latest-module-content-container 
+.latest-module-content .module-data .module-info h3 {
+    color: #2b2f34;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: -.012em;
+    line-height: 24px;
+    margin-bottom: 8px;
+}
+.latest-module .latest-module-content-container 
+.latest-module-content .module-data .date {
+    align-items: center;
+    background-color: #fff;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    height: 60px;
+    justify-content: center;
+    margin-right: 23px;
+    width: 60px;
+}
+
+.elm-btn {
+    background: #2666be;
+    border: none!important;
+    border-radius: 6px;
+    color: #fff;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    padding: 8px 20px 8px 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn-icon{
+    display: flex;
+    align-items: center;
+    padding-left: 4px;
+}
+.progress-bar span {
+    background: #ff940a;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    display: block;
+    height: 6px;
+    margin-bottom: -2px;
+}
+
+  
