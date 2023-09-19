@@ -42,11 +42,6 @@ a{
     font-family: 'Inter', sans-serif;
 }
 
-/* .navIcon:hover{
-    background-color: #ebf3fe;
-    color: #2f80ed;
-    color: #505862;
-} */
 
 nav {
     background-color: #fff;
@@ -64,8 +59,7 @@ nav {
     display: flex;
     flex-direction: column;
     margin-right: 20px;
-
-
+    z-index:100;
 
 }
 
